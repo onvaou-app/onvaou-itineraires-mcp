@@ -1,0 +1,48 @@
+{
+  "name": "onvaou-itineraires-mcp",
+  "version": "0.1.1",
+  "description": "MCP server for the « On va où ? » Routing API: bike, e-bike, kick scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "onvaou-itineraires-mcp": "server.js"
+  },
+  "main": "server.js",
+  "files": [
+    "server.js",
+    "format.js",
+    "README.md",
+    "server.json",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "routing",
+    "bicycle",
+    "cycling",
+    "scooter",
+    "motorcycle",
+    "wheelchair",
+    "openstreetmap",
+    "europe"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^3.25.0"
+  },
+  "mcpName": "app.onvaou/itineraires",
+  "homepage": "https://onvaou.app/developers/routing-api.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onvaou-app/onvaou-itineraires-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onvaou-app/onvaou-itineraires-mcp/issues"
+  }
+}
