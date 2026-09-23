@@ -2,14 +2,14 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.onvaou/itineraires",
   "title": "On va où ? Routing API",
-  "description": "Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators.",
+  "description": "Address geocoding and bike, scooter, motorcycle, wheelchair and walking routes across Europe.",
   "websiteUrl": "https://onvaou.app/developers/routing-api.html",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "onvaou-itineraires-mcp",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "transport": {
         "type": "stdio"
       },

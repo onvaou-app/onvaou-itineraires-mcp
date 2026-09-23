@@ -1,7 +1,7 @@
 {
   "name": "onvaou-itineraires-mcp",
-  "version": "0.1.1",
-  "description": "MCP server for the « On va où ? » Routing API: bike, e-bike, kick scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators.",
+  "version": "0.2.0",
+  "description": "MCP server for the « On va où ? » Routing API: address geocoding, and bike, e-bike, kick scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators.",
   "license": "MIT",
   "type": "module",
   "bin": {
@@ -24,6 +24,8 @@
   "keywords": [
     "mcp",
     "routing",
+    "geocoding",
+    "geocoder",
     "bicycle",
     "cycling",
     "scooter",
